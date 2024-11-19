@@ -30,8 +30,15 @@ The script requires the following Python packages:
 - `openpyxl`
 
 ## old version DB tickets (before 2024)
-using `DB_old.py` for old version tickets
+
+Use `DB_old.py` for old version tickets
 
 ```
 python DB_old.py -d <folder_path> -o <output_file>
+```
+
+## ÖBB tickets 
+
+```
+python Oebb.py -d <folder_path> -o <output_file>
 ```
