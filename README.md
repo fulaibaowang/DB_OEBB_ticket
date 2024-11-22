@@ -42,3 +42,10 @@ python DB_old.py -d <folder_path> -o <output_file>
 ```
 python Oebb.py -d <folder_path> -o <output_file>
 ```
+
+## docker
+```
+ MSYS_NO_PATHCONV=1 docker run -it -v /c/Users/freed/develop/DB_OEBB_ticket:/workdir fulaibaowang/dbticket:1.0.0 python DB_OEBB_ticket/DB.py -d /workdir/new_ticket -o /workdir/test.xlsx
+```
+
+[dockerfile](https://github.com/fulaibaowang/docker_images/tree/main/dbticket/1.0.0)
